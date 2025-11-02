@@ -14,7 +14,7 @@ Step-1: Create email to which alerts are to be delivered. Ensure this email can 
 
 Step-2: Create SNS topic and add a subscription to the email address created in step-1.
 
-Step-3: Create an AWS Lambda function using the code found in lambda-code.py. Assign execution role as per the policy present within IAM policies folder.
+Step-3: Create an AWS Lambda function using the code found in lambda-code.py. Assign execution role as per the policy present within IAM policies folder. You can also have the function log to CloudWatch in a different log group for troubleshooting.
 
 Step-4: Create EventBridge rule using the pattern present in eventpattern.json. Assign a role during the creation of the rule. Policy details are present in the iAM policies folder.
 
