@@ -8,7 +8,7 @@
                 "Service": "cloudtrail.amazonaws.com"
             },
             "Action": "s3:PutObject",
-            "Resource": "arn:aws:s3:::basdbhbfgdb434-uhjsbfsd344/*"
+            "Resource": "arn:aws:s3:::<YOUR-UNIQUE-BUCKET-NAME>/*"
         }
     ]
 }
