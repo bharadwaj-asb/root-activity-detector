@@ -5,17 +5,7 @@
             "Sid": "AWSCloudTrailCreateLogStream",
             "Effect": "Allow",
             "Action": [
-                "logs:CreateLogStream"
-            ],
-            "Resource": [
-                "arn:aws:logs:<YOUR-REGION>:<YOUR-LOG-GROUP>*",
-                "arn:aws:logs:<YOUR-REGION>:<YOUR-LOG-STREAM>*"
-            ]
-        },
-        {
-            "Sid": "AWSCloudTrailPutLogEvents",
-            "Effect": "Allow",
-            "Action": [
+                "logs:CreateLogStream",
                 "logs:PutLogEvents"
             ],
             "Resource": [
