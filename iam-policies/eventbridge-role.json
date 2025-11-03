@@ -4,10 +4,15 @@
         {
             "Effect": "Allow",
             "Action": [
-                "lambda:InvokeFunction"
+                "lambda:InvokeFunction",
+                "logs:FilterLogEvents",
+                "logs:GetLogEvents",
+                "logs:DescribeLogGroups",
+                "logs:ListLogGroups"
             ],
             "Resource": [
-                "<YOUR-LAMBDA-FUNCTION-ARN>"
+                "<YOUR-LAMBDA-FUNCTION-ARN>",
+                "<YOUR_CLOUDWATCH_LOG_GROUP_ARN:*>"
             ]
         }
     ]
