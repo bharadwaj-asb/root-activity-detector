@@ -27,7 +27,7 @@ def lambda_handler(event, context):
 
         # Post to SNS topic
         sns.publish(
-            TopicArn=os.environ["SNS_TOPIC_ARN"],
+            TopicArn="SNS_TOPIC_ARN",
             Subject=subject,
             Message=message
         )
