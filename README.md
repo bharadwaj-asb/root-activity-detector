@@ -23,3 +23,7 @@ It is advisable to create the integrations from right to left, as CloudTrail imm
 **Step-6:** Create CloudWatch log group. Most of the time, its better off to have the service create a new log group for proper segregation. But its fine if you want to use an existing log group. 
 
 **Step-7:** Create CloudTrail new trail and configure the respective destinations created in Step-5 & 6. Ensure the role for CloudTrail is updated as per the policy present in IAM policies folder.
+
+### Output alert on email
+<img width="1095" height="842" alt="Screenshot 2025-11-03 221945" src="https://github.com/user-attachments/assets/6a3a7ef9-c57a-460e-8cda-30e38dc22b47" />
+
